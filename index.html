@@ -5,9 +5,9 @@
 -->
 
 
-	<!DOCTYPE html>
-	<html>
-		
+<!DOCTYPE html>
+<html>
+
 
 <head><meta name="generator" content="Hexo 3.8.0">
 	<title>Explorerli</title>
@@ -23,12 +23,14 @@
 
 	<!-- favicon -->
 	<link href="/img/favicon.ico" rel="Shortcut Icon" type="image/ico">
-	
+
 	<!-- font-awesome -->
 	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-	<body>	
-		<!--Preloader-->
+
+<body>
+
+<!--Preloader-->
 <div id="preloader">
 	<div id="status">
 		<img alt="PRELOADER" src="/img/logo.png">
@@ -37,73 +39,69 @@
 <!--Preloader end-->
 
 <!-- header -->
+<header id="header-bg-1" style="background-image: url( https://source.unsplash.com/collection/954550/1920x1080 );">
 
-	<header id="header-bg-1" style="background-image: url( https://source.unsplash.com/collection/954550/1920x1080 );">	
 
-	
-		<div id="cd-logo"><a href="/"><img src="/img/logo.png" alt="Logo"></a></div>
-	
-	
+	<div id="cd-logo"><a href="/"><img src="/img/logo.png" alt="Logo"></a></div>
+
 	<!-- motto or description -->
-		
- 		<p class="motto">Keep learning.</p>
-	
-	
+	<p class="motto">Keep learning.</p>
+
 	<!-- current page name or title -->
-	
-		
-		
-			
-			<p class="page-name">主页</p>	
-			
-		
-	
-	
+	<p class="page-name">主页</p>
+
 	<!-- others: such as change-bg, time... -->
 	<p class="page-name-other">
-		11/25/2018 
+		11/25/2018
+
 		<style type="text/css">
-	header:after {
-		content: '';
-		position: relative;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		background: #222222;
-		opacity: .5;
-		z-index: -1;
-	}
-	
-	.change-header-bg{
-		font-style: normal;
-	}
-	.change-header-bg i{
-		text-align: center;
-		cursor: pointer;
-		pointer-events: bounding-box;
-	}
-	@media(max-width:512px) {
-		.change-header-bg {
-			display: none;
-			visibility: hidden;
-		}
-	}
-	
-</style>
+			header:after
+			{
+				content: '';
+				position: relative;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				background: #222222;
+				opacity: .5;
+				z-index: -1;
+			}
 
-<script type="text/javascript">
-	function changeHeaderBg(){
-		var random_bg = Math.floor(Math.random() * 109 + 1);
-		var bg = 'url(' + random_bg + '.jpg)';
-		$("#header-bg-2").css("background-image", bg);
-	}
-</script>
+			.change-header-bg
+			{
+				font-style: normal;
+			}
+			.change-header-bg i
+			{
+				text-align: center;
+				cursor: pointer;
+				pointer-events: bounding-box;
+			}
+			@media(max-width:512px)
+			{
+				.change-header-bg
+				{
+					display: none;
+					visibility: hidden;
+				}
+			}
+		</style>
 
-<span class="change-header-bg">
-	——&nbsp;<i class="fa fa-camera-retro" onclick="changeHeaderBg()"></i>	
-</span>
-	</p>		
+		<script type="text/javascript">
+			function changeHeaderBg()
+			{
+				var random_bg = Math.floor(Math.random() * 109 + 1);
+				var bg = 'url(' + random_bg + '.jpg)';
+				$("#header-bg-2").css("background-image", bg);
+			}
+		</script>
+
+		<span class="change-header-bg">
+			——&nbsp;<i class="fa fa-camera-retro" onclick="changeHeaderBg()"></i>
+		</span>
+
+	</p>
 </header>
 
 <!-- nav -->
@@ -112,176 +110,175 @@
 
 	<nav id="cd-main-nav">
 		<ul>
-			
+
       		<li class="fa fa-/">
-           		<a href="/" title="主页">主页</a>	
+           		<a href="/" title="主页">主页</a>
       		</li>
-    		
+
       		<li class="fa fa-/archives">
-           		<a href="/archives" title="博客">博客</a>	
+           		<a href="/archives" title="博客">博客</a>
       		</li>
-    		
+
       		<li class="fa fa-/categories">
-           		<a href="/categories" title="分类">分类</a>	
+           		<a href="/categories" title="分类">分类</a>
       		</li>
-    		
+
       		<li class="fa fa-/tags">
-           		<a href="/tags" title="标签">标签</a>	
+           		<a href="/tags" title="标签">标签</a>
       		</li>
-    		
+
       		<li class="fa fa-/about">
-           		<a href="/about" title="关于">关于</a>	
+           		<a href="/about" title="关于">关于</a>
       		</li>
-    		
+
       		<li class="fa fa-/gallery">
-           		<a href="/gallery" title="相册">相册</a>	
+           		<a href="/gallery" title="相册">相册</a>
       		</li>
-    		
-    		
-        	
+
 		</ul>
 	</nav>
 </div>
 
-		<!--main-->
-		<main> 
-		<div class="page-container">
-		
+<!--main-->
+<main>
+	<div class="page-container">
+
 	<!-- content srart -->
-<div class="am-g am-g-fixed blog-fixed">
-	<div class="am-u-md-12 am-u-sm-12">
-
-		
+	<div class="am-g am-g-fixed blog-fixed">
+		<div class="am-u-md-12 am-u-sm-12">
 			<article class="am-g blog-entry-article">
-
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
 					<img src="/img/1.jpg" class="am-u-sm-12">
-				</div>	
+				</div>
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+
 					<span class="theme-annie-post-date">
+
 						<a href="/2018/11/24/Windows下Anaconda中安装keras/" itemprop="url">
-	<time datetime="2018-11-24T05:11:44.515Z" itemprop="datePublished">
-  		2018-11-24
-  </time>
-</a>    
+
+							<time datetime="2018-11-24T05:11:44.515Z" itemprop="datePublished">
+  								2018-11-24
+  							</time>
+
+						</a>
 
 					</span>
+
 					<span class="theme-annie-post-title">
-						
 					</span>
-					
-					
-						<p>
-							
-								Windows下Anaconda中安装keras注：方法来自知乎，答主总结的很好，我这里只是记录一下我成功的这个方法，文末有链接。
+
+					<p>
+					<h1>Windows下Anaconda中安装keras</h1>注：方法来自知乎，答主总结的很好，我这里只是记录一下我成功的这个方法，文末有链接。
 ​    网上搜了很多方法，试下来均在我的电脑上没有奏效，不知道是因为操作不当还是什么，但是终究是找到了一个比较繁琐但亲测有效的方法。
 ​    如果你已经试了很多方法了还没有成果，不妨试试以下步骤：
 
 先安装 TDM GCC x64
 
-打开 Anaconda pro	
-							  
-						</p> 
-					
+打开 Anaconda pro
 
-					
-						<span class="continue-read">      	
-							<a href="/2018/11/24/Windows下Anaconda中安装keras/" class="pull-right">
-								展开全文
-							</a>		
-						</span>
-					         		
+					</p>
+
+					<span class="continue-read">
+						<a href="/2018/11/24/Windows下Anaconda中安装keras/" class="pull-right">
+							展开全文
+						</a>
+					</span>
+
 				</div>
-		
+
 			</article>
-		
+
 			<article class="am-g blog-entry-article">
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
 					<img src="/img/1.jpg" class="am-u-sm-12">
-				</div>	
+				</div>
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+
 					<span class="theme-annie-post-date">
+
 						<a href="/2018/11/22/第一章 绪论/" itemprop="url">
-	<time datetime="2018-11-22T14:35:12.087Z" itemprop="datePublished">
-  		2018-11-22
-  </time>
-</a>    
+
+						<time datetime="2018-11-22T14:35:12.087Z" itemprop="datePublished">
+  						2018-11-22
+ 						 </time>
+
+						</a>
 
 					</span>
+
 					<span class="theme-annie-post-title">
-						
 					</span>
-					
-					
-						<p>
-							
+
+					<p>
+
 								第一章 绪论1.1 基本术语
 数据集（data set）：记录数据的集合。如：一批西瓜的数据。
 示例（instance）或 样本（sample）：一个数据集中每条记录关于一个事件或对象的描述。如：关于一个西瓜的描述。
 属性（attribute）或 特征（feature）：反应事件或对象在某方面的表现或性质的事项。如：西瓜的“色泽”，“根蒂”，“敲声”等。
-属性空间（attribute space）	
-							  
-						</p> 
-					
+属性空间（attribute space）
 
-					
-						<span class="continue-read">      	
-							<a href="/2018/11/22/第一章 绪论/" class="pull-right">
-								展开全文
-							</a>		
-						</span>
-					         		
+					</p>
+
+					<span class="continue-read">
+						<a href="/2018/11/22/第一章 绪论/" class="pull-right">
+							展开全文
+						</a>
+					</span>
+
 				</div>
-		
+
 			</article>
-		
+
 			<article class="am-g blog-entry-article">
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
 					<img src="/img/1.jpg" class="am-u-sm-12">
-				</div>	
+				</div>
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+
 					<span class="theme-annie-post-date">
+
 						<a href="/2018/11/21/第一篇博客文章/" itemprop="url">
-	<time datetime="2018-11-21T11:52:48.637Z" itemprop="datePublished">
-  		2018-11-21
-  </time>
-</a>    
+
+						<time datetime="2018-11-21T11:52:48.637Z" itemprop="datePublished">
+					  		2018-11-21
+					 	</time>
+</a>
 
 					</span>
 					<span class="theme-annie-post-title">
-						
-					</span>
-					
-					
-						<p>
-							
-								第一篇博客文章2018年11月21日19时，开启博客之旅。
-	
-							  
-						</p> 
-					
 
-					
-						<span class="continue-read">      	
+					</span>
+
+
+						<p>
+
+								第一篇博客文章2018年11月21日19时，开启博客之旅。
+
+
+						</p>
+
+
+
+						<span class="continue-read">
 							<a href="/2018/11/21/第一篇博客文章/" class="pull-right">
 								展开全文
-							</a>		
+							</a>
 						</span>
-					         		
+
 				</div>
-		
+
 			</article>
-		
+
 			<article class="am-g blog-entry-article">
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
 					<img src="/img/1.jpg" class="am-u-sm-12">
-				</div>	
+				</div>
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
 					<span class="theme-annie-post-date">
@@ -289,40 +286,40 @@
 	<time datetime="2018-10-23T05:19:58.000Z" itemprop="datePublished">
   		2018-10-23
   </time>
-</a>    
+</a>
 
 					</span>
 					<span class="theme-annie-post-title">
-						
-	
-		<a href="/2018/10/23/test-my-site/" itemprop="url">		
-			test_my_site		
+
+
+		<a href="/2018/10/23/test-my-site/" itemprop="url">
+			test_my_site
 		</a>
-	
+
 
 					</span>
-					
-					
-						<!--没有文章内容-->
-						<p>没有文章内容...</p>    		
-					
 
-					
-						<span class="continue-read">      	
+
+						<!--没有文章内容-->
+						<p>没有文章内容...</p>
+
+
+
+						<span class="continue-read">
 							<a href="/2018/10/23/test-my-site/" class="pull-right">
 								展开全文
-							</a>		
+							</a>
 						</span>
-					         		
+
 				</div>
-		
+
 			</article>
-		
+
 			<article class="am-g blog-entry-article">
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
 					<img src="/img/1.jpg" class="am-u-sm-12">
-				</div>	
+				</div>
 
 				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
 					<span class="theme-annie-post-date">
@@ -330,41 +327,41 @@
 	<time datetime="2018-10-23T05:08:06.077Z" itemprop="datePublished">
   		2018-10-23
   </time>
-</a>    
+</a>
 
 					</span>
 					<span class="theme-annie-post-title">
-						
-	
-		<a href="/2018/10/23/hello-world/" itemprop="url">		
-			Hello World		
+
+
+		<a href="/2018/10/23/hello-world/" itemprop="url">
+			Hello World
 		</a>
-	
+
 
 					</span>
-					
-					
-						<p>
-							
-								Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick	
-							  
-						</p> 
-					
 
-					
-						<span class="continue-read">      	
+
+						<p>
+
+								Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick
+
+						</p>
+
+
+
+						<span class="continue-read">
 							<a href="/2018/10/23/hello-world/" class="pull-right">
 								展开全文
-							</a>		
+							</a>
 						</span>
-					         		
-				</div>
-		
-			</article>
-		     
 
-		    	
+				</div>
+
+			</article>
+
+
+
 	</div>
 </div>
 <!-- content end -->
@@ -373,40 +370,40 @@ Quick
 
 		</div>
 		</main>
-		
+
 		<!--footer-->
 		<footer>
 	<div class="blog-text-center">
 		<div class="theme-annie-social">
-				
-				
+
+
 					<a href="https://github.com/Explorerli?tab=repositories" title="Github" target="_blank"><i class="fa fa-github"></i>&nbsp;</a>
-					
-				
+
+
 					<a href="https://weibo.com/p/1005055695048748/home?from=page_100505&mod=TAB#place" title="Weibo" target="_blank"><i class="fa fa-weibo"></i>&nbsp;</a>
-				
-					
-				
+
+
+
 					<a href="http://github.com/" title="QQ" target="_blank"><i class="fa fa-qq"></i>&nbsp;</a>
-					
-				
+
+
 					<a href="http://github.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i>&nbsp;</a>
-						
-				
+
+
 		</div>
 	</div>
 
 	<div class="blog-text-center">
 		<div class="theme-annie-copyright">
-			
-				&copy; 2017 - 2018, content by Explorerli. All Rights Reserved.			       	
-			
+
+				&copy; 2017 - 2018, content by Explorerli. All Rights Reserved.
+
 		</div>
 	</div>
 
 	<div class="blog-text-center">
 		<div class="theme-annie-copyright">
-			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.		
+			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
 		</div>
 	</div>
 </footer>
@@ -427,7 +424,7 @@ Quick
 		text-align: center;
 	}
 	@media(max-width: 890px) {
-		.motto {	
+		.motto {
 			margin: 100px 10% 0;
 			width: 80%;
 		}
@@ -444,7 +441,7 @@ Quick
 	<script src="/js/motto.js"></script>
 	<script type="text/javascript">
 		$(".motto").html(getMingYanContent());
-	</script>	
+	</script>
 
 
 
@@ -459,12 +456,12 @@ Quick
 	//generate a random img that pre_name 'from 0 to 110'
 	var random_bg = Math.floor(Math.random() * 109 + 1);
 
-	//var bg = 'url(/img/random/' + random_bg + '.jpg)';		
+	//var bg = 'url(/img/random/' + random_bg + '.jpg)';
 	var bg = 'url(' + random_bg + '.jpg)';
 
 	$("#header-bg-2").css("background-image", bg);
 </script>
-		
+
 		<!--back to top-->
         <style type="text/css">
 	#totop {
@@ -475,14 +472,14 @@ Quick
 		bottom: 80px;
 		cursor: pointer;
 	}
-	
+
 	#totop a {
 		color: #474747;
 		background-color: transparent;
 		padding: 10px;
 		text-decoration: none;
 	}
-	
+
 	@media(max-width:512px) {
 		#totop {
 			display: none;
